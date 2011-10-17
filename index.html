@@ -5,12 +5,40 @@
 		<title>Bootstrap Cheat Sheet</title>
 		<link rel="stylesheet" href="bootstrap.min.css">
 		<link rel="stylesheet" href="docs.css">
+		<link rel="stylesheet" href="prettify.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script src="prettify.js"></script>
+		<script>$(function () { prettyPrint() })</script>
 	</head>
 	<body>
 		<div class="container">
-			<div class="row show-grid">
+			<div class="row">
+				<div class="span16">
+					<h1>Twitter Bootstrap Cheatsheet</h1>
+					<a href="http://twitter.github.com/bootstrap" target="_blank">Twitter Bootstrap</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<h2>Basics</h2>
+				</div>
+				<div class="span12">
+					<h3>How to use</h3>
+					<p>Site is set up with a <code>container</code> div</p>
+					<p></p>
+					<pre class="prettyprint linenums">&lt;div class="container"&gt;
+ &lt;div class="row"&gt;
+  &lt;div class="span6"&gt;
+    ...
+  &lt;/div&gt;
+  &lt;div class="span10"&gt;
+    ...
+  &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</pre>
+				</div>
+			</div><div class="row show-grid">
 				<div class="span16">16 = 940px</div>
-				
 			</div>
 			<div class="row show-grid">
 				<div class="span1">40px</div>
@@ -44,7 +72,6 @@
 				<div class="span8">8 = 460px</div>
 				<div class="span8">8 = 460px</div>
 			</div>
-			
 		</div>
 	</body>
 </html>
